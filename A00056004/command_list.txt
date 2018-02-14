@@ -1,0 +1,109 @@
+    1  ssh root@192.168.104.28
+    2  exit
+    3  ip addr
+    4  ifconfig
+    5  ip addr
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd /etc/
+   10  ls
+   11  ls -l
+   12  cd ..
+   13  cd /etc/sysctl.d/
+   14  ls
+   15  cd ..
+   16  cd sysconfig/
+   17  ls
+   18  ls -l
+   19  cd network-scripts/
+   20  ls
+   21  pwd
+   22  grep ifcfg
+   23  vi ifcfg-enp0s3 
+   24  ip addr
+   25  vi ifcfg-enp0s3 
+   26  vi ifcfg-enp0s8 
+   27  systemctl restart network.services
+   28  systemctl restart network.service
+   29  ip addr
+   30  ssh 192.168.104.31
+   31  ssh 192.168.104.28
+   32  ip addr
+   33  shutdown -h now
+   34  yum install git -y
+   35  yum install gcc ncurses-devel ncurses
+   36  make
+   37  make install
+   38  cd /tmp/
+   39  ls
+   40  make
+   41  make install
+   42  git clone https://github.com/jonas/tig.git
+   43  cd tig
+   44  gcc
+   45  make
+   46  make install
+   47  tig
+   48  cd ..
+   49  pwd
+   50  rm -rf tig/
+   51  ls
+   52  git clone https://github.com/brayanhenao/so-workshop2.git
+   53  yum install nano
+   54  ls -l
+   55  cd so-workshop2/
+   56  ls
+   57  nano README.md 
+   58  touch message_1.txt
+   59  git status
+   60  git add message_1.txt 
+   61  git checkout -b A00056004/workshop2
+   62  git checkout -d A00056004/workshop2
+   63  status
+   64  git status
+   65  git commit -m "Add message_1.txt"
+   66  git config --global user.name "Brayan Henao"
+   67  git reset --
+   68  git commit -m "Add message_1.txt"
+   69  ls
+   70  git status
+   71  cat .git/config 
+   72  tig
+   73  git brancg
+   74  git branch
+   75  git push origin brayanhenao/workshop2
+   76  git status
+   77  ls -
+   78  ls -l
+   79  touch message_1.txt
+   80  git add message_1.txt 
+   81  git commit -m "Add message_1.txt"
+   82  nano .git/config 
+   83  git branch
+   84  git branch -a
+   85  git branch -D help
+   86  git branch -D
+   87  git checkout
+   88  git status
+   89  git push origin bhenao/workshop2
+   90  cd ..
+   91  ls -l
+   92  cd so-workshop2/
+   93  ls -a
+   94  mkdir A00056004
+   95  mv message_1.txt A00056004/
+   96  LS
+   97  ls -l
+   98  ls
+   99  cd A00056004/
+  100  LS
+  101  ls
+  102  nano message_1.txt 
+  103  cd ..
+  104  git add -all
+  105  git add --all
+  106  git commit -m "Move files to directory"
+  107  git push origin A00056004/workshop2
+  108  cd A00056004/
+  109  history > command_list.txt
