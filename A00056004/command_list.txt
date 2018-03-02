@@ -107,3 +107,44 @@
   107  git push origin A00056004/workshop2
   108  cd A00056004/
   109  history > command_list.txt
+  110  cd /tmp/so-workshop2/A00056004/
+  111  ll
+  112  nano Makefile
+  113  ll
+  114  nano Makefile
+  115  nano Sysc01.c
+  116  make sysc1
+  117  nano Sysc02.c
+  118  make sysc2
+  119  nano Sysc03.c
+  120  make sysc3
+  121  ./Sysc03.o
+  122  ll
+  123  ./Sysc03.o
+  124  nano Sysc03.c
+  125  make sysc3
+  126  ./Sysc03.o
+  127  ll
+  128  ./Sysc03.o
+  129  ll
+  130  ./Sysc03.o
+  131  ll
+  132  nano Sysc03.c
+  133  nano README.md 
+  134  ll
+  135  nano README.md 
+  136  cd ..
+  137  nano .git/config 
+  138  git add --all
+  139  git commit -m "Add workshop-2 files"
+  140  git push origin A00056004/workshop2
+  141  ll
+  142  cd A00056004/
+  143  ll
+  144  rm .Sysc02.c.swp 
+  145  ll
+  146  cd ..
+  147  git add --all
+  148  git commit -m "Delete wrong file"
+  149  git push origin A00056004/workshop2
+  150  history > command_list.txt
